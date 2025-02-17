@@ -3,20 +3,16 @@ import { RouterProvider } from 'react-router-dom';
 
   export const AuthContext = createContext({
             "email": "",
-            "phone": "",
-            "fullName": "",
+            "name": "",
             "role": "",
-            "avatar": "",
             "id": ""
 });
 
 export const AuthWrapper = (props) => {
     const [user,  setUser] = useState({
         "email": "",
-        "phone": "",
-        "fullName": "",
+        "name": "",
         "role": "",
-        "avatar": "",
         "id": ""
     });
 
