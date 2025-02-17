@@ -10,7 +10,7 @@ const loginAPI = (email, password) => {
 
 }
 const registerUserAPI = (fullName,email,password) =>{
-    const URL_BACKEND = "/api/v1/user/register";
+    const URL_BACKEND = "/api/v1/auth/register";
     const data = {
         name:fullName,
         email:email,
